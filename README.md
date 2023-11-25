@@ -1,9 +1,17 @@
 <h1 align="center"> MedSearch - Gerenciamento de Estoque de Medicamentos - (Aplicação para Posto de Saúde) </h1>
+<div align="center">
+  <img src="https://github.com/raigumieri/GlobalSolution_Edge/assets/127215645/6d55232a-71ba-4542-8c88-8bc85dd0f0ed">
+</div>
+ 
 <h3> Integrantes do grupo: </h3>
 <ul> 
   <li> Luiza Cristina da Silva RM:99367 1ESPI </li>
   <li> Raí Gumieri dos Santos RM:98287 1ESPI </li>
 </ul>
+
+<h4> Link do Wokwi: https://wokwi.com/projects/382291261738383361 </h4>
+
+<br>
 
 <h2 align="center"> Descrição do Problema de Saúde Abordado </h2>
 
@@ -49,14 +57,14 @@
 <h3>  Configuração do Software: </h3>
 <h4> 1. Instale as Bibliotecas Necessárias: </h4>
 <ul> 
-  <li> - Instale as bibliotecas necessárias no Arduino IDE, incluindo a biblioteca HX711. </li>
+  <li> - Instale as bibliotecas necessárias do ESP32, incluindo a biblioteca HX711. </li>
 </ul>
 
-<h4> 2. Carregue o Código na ESP32: </h4>
+<h4> 2. Carregue o Código no ESP32: </h4>
 <ul> 
   <li> Abra o arquivo do código-fonte (Arduino sketch) na IDE do Arduino; </li>
   <li> Selecione a placa correta (ESP32) e a porta serial correta; </li>
-  <li> Carregue o código na ESP32. </li>
+  <li> Carregue o código no ESP32. </li>
 </ul>
 
 <h4> 3. Configurações Adicionais: </h4>
@@ -66,7 +74,7 @@
 
 <h4> 4. Alimentação: </h4>
 <ul> 
-  <li> Alimente a ESP32 de acordo com as especificações. </li>
+  <li> Alimente o ESP32 de acordo com as especificações. </li>
 </ul>
 
 <h4> 5. Montagem Física: </h4>
@@ -79,9 +87,9 @@
 
 <h3> Execução da Aplicação: </h3>
 <ol>
-  <li> Ligue a ESP32; </li>
+  <li> Ligue o ESP32; </li>
   <li> A aplicação medirá o peso na balança HX711 e acenderá o LED verde se o medicamento estiver disponível; </li>
-  <li> Os pacientes podem verificar a disponibilidade do medicamento por meio de uma interface online, que exibirá o status do LED; </li>
+  <li> Os pacientes podem verificar a disponibilidade do medicamento por meio de uma interface online, que exibirá o dados coletados pelo protótipo; </li>
   <li> Certifique-se de manter a ESP32 conectada à Internet para que os dados possam ser acessados remotamente. </li>
 </ol>
 
