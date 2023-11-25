@@ -10,6 +10,7 @@
 </ul>
 
 <h4> Link do Wokwi: https://wokwi.com/projects/382291261738383361 </h4>
+<h4> Link do vídeo: https://youtu.be/113wV33gnPA </h4>
 
 <br>
 
